@@ -4,7 +4,7 @@ pipeline {
 	stages {
         stage('Setup') {
             steps {
-                git branch: 'main', url: 'https://github.com/raffathamires/exercicio-api-rest-cypress.git'
+                git branch: 'main', url: 'https://github.com/raffathamires/teste-api-cypress.git'
                 bat 'npm install'
             }
         }
